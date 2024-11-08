@@ -1,5 +1,5 @@
 {
-  "name": "poke-battle-package",
+  "name": "@blueskunka/poke-battle-package",
   "version": "1.0.0",
   "description": "Enums for PokeBattle Socket events |Scholar project",
   "main": "index.js",
