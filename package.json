@@ -1,0 +1,25 @@
+{
+  "name": "poke-battle-package",
+  "version": "1.0.0",
+  "description": "Enums for PokeBattle Socket events |Scholar project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlueSkunka/poke-battle-package.git"
+  },
+  "keywords": [
+    "pokebattle",
+    "socket",
+    "typescript",
+    "enum"
+  ],
+  "author": "blueskunka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlueSkunka/poke-battle-package/issues"
+  },
+  "homepage": "https://github.com/BlueSkunka/poke-battle-package#readme"
+}
