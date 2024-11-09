@@ -2,7 +2,7 @@
   "name": "@blueskunka/poke-battle-package",
   "version": "1.0.1",
   "description": "Enums for PokeBattle Socket events |Scholar project",
-  "main": "index.js",
+  "main": "PokeBattleSocketEvents.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
