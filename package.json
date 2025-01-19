@@ -1,13 +1,14 @@
 {
   "name": "@blueskunka/poke-battle-package",
-  "version": "1.2.0",
+  "version": "2.0.1",
   "description": "Enums for PokeBattle app | Scholar project",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "publish": "npm publish --access public"
+    "publish": "tsc && npm publish --access public",
+    "release": "npm run build && np --no-2fa"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,10 @@
     "url": "https://github.com/BlueSkunka/poke-battle-package/issues"
   },
   "homepage": "https://github.com/BlueSkunka/poke-battle-package#readme",
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "np": "^10.1.0"
+  }
 }
