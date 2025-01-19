@@ -1,8 +1,9 @@
 {
   "name": "@blueskunka/poke-battle-package",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Enums for PokeBattle app | Scholar project",
-  "main": "PokeBattleSocketEvents.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -24,5 +25,5 @@
     "url": "https://github.com/BlueSkunka/poke-battle-package/issues"
   },
   "homepage": "https://github.com/BlueSkunka/poke-battle-package#readme",
-  "module": "PokeBattleSocketEvents.ts"
+  "files": ["dist"]
 }
