@@ -18,8 +18,14 @@ export const PokeBattleSocketEvents = {
     GAME_PLAYER_UNREADY: 'game_player_unready',
     // Game start
     GAME_START: 'game_start',
-    // Player ready to start:
+    // Player disconnected:
     GAME_PLAYER_DISCONNECT: 'game_player_disconnect',
+    // Player left the game:
+    GAME_PLAYER_LEFT: 'game_player_left',
+    // Player reconnect to the game
+    GAME_PLAYER_RECONNECTED: 'game_player_reconnected',
+    // Player abandon the game
+    GAME_PLAYER_ABANDON: 'game_player_abandon',
     // Game ended
     GAME_ENDED: 'game_ended',
 }
